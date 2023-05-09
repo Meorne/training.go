@@ -1,0 +1,14 @@
+Le manque de support de la programmation générique dans les versions initiales de Go ont généré beaucoup de critiques.
+Les concepteurs ont exprimé qu'ils n'étaient pas opposés à la programmation générique en précisant que certaines fonctions intégrées du langage étaient génériques, mais qu'elles étaient vues comme des exceptions.
+Rob Pike appelait cet état de fait "une faiblesse" pouvant être changée à un moment ou un autre.
+L'équipe de Google avait réalisé au moins une version du compilateur pour expérimenter un dialecte intégrant les génériques dans Go, mais ne l'avait jamais publié.
+
+
+En août 2018, les contributeurs principaux de Go ont publié un premier jet d'une proposition de document de conception incluant la programmation générique et le traitement des erreurs par exception.
+Ils ont ensuite demandé aux utilisateurs de leur soumettre leurs avis sur ces possibles évolutions.
+L'évolution sur le traitement des erreurs fût abandonnée.
+
+
+En juin 2020, une nouvelle proposition de document de conception fût publiée avec les ajustements et la syntaxe nécessaire à faire dans Go pour déclarer les fonctions et les types génériques.
+Cette nouvelle proposition fut accompagnée d'un outil permettant de convertir la nouvelle syntaxe intégrant les génériques en une version compilable par les versions existantes de Go, ceci afin de permettre aux utilisateurs de tester ces nouvelles évolutions.
+
